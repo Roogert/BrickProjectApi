@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module BaseApi
+module BrickProjectApi
   module Users
     def self.new_user(params)
 

@@ -1,0 +1,2 @@
+class Brickset < ApplicationRecord
+end

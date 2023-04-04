@@ -38,7 +38,7 @@ class User < ApplicationRecord
 
   def generate_token!(ip)
     token = Token.create(
-      value: BaseApi::AccessToken.generate(self),
+      value: BrickProjectApi::AccessToken.generate(self),
       user_id: id,
       expiry: DateTime.current + 7.days,
       ip: ip

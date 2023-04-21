@@ -88,7 +88,7 @@ captain_inventories=[
 ]
 
 captain_inventories.each do | captain_inventory_hash | 
-    Captain_inventory.create(
+    CaptainInventory.create(
         captains_id: captain_inventory_hash [:captains_id], 
         brickset_id: captain_inventory_hash [:brickset_id],
     )

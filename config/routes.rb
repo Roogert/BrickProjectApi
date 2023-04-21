@@ -28,6 +28,9 @@ Rails.application.routes.draw do
         post :create
       end
       
+      resources :captain
+
+
     end
   end
 end
